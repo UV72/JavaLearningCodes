@@ -1,0 +1,15 @@
+package arrays;
+import java.util.Scanner;
+
+public class Arrays1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int positions[]= {1,2,3,4,5,6};
+		System.out.println("please enter which position would you like to view");
+		int n=sc.nextInt();
+		System.out.println("the number at this position is "+ positions[n-1]);
+		sc.close();
+	}
+
+}

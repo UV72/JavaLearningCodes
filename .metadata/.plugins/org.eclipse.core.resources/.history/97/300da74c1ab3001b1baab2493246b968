@@ -1,0 +1,12 @@
+package arraylists;
+
+public class PairsDemo {
+
+	public static void main(String[] args) {
+		Pairs<Boolean, String> p1= new Pairs(true, "Yuvraj");
+		Pairs<String, Integer> p2= new Pairs("Marks", 457);
+		p1.getDescription();
+		p2.getDescription();
+	}
+
+}

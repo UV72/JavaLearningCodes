@@ -1,0 +1,5 @@
+package interfacesPackage;
+
+public abstract interface YouTuber {
+	public void makeVideo();
+}

@@ -1,0 +1,10 @@
+package arrayListsFunctions;
+
+public class addAllElements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
