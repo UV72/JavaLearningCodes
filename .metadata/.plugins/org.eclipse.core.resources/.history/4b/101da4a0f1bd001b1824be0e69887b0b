@@ -1,0 +1,10 @@
+package linkedLists;
+
+public class LLintro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
