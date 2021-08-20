@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Person {
-
+	int legs=2;
 	public Person(String name) {
 		this.name=name;
 	}

@@ -4,7 +4,7 @@ import java.util.*;
 public class LLintro {
 
 	public static void main(String[] args) {
-		List<Integer> ll= new LinkedList<>();
+		List<Integer> ll= new LinkedList<Integer>();
 		
 		ll.add(12);
 		ll.add(2);

@@ -27,6 +27,7 @@ public class MainClass {
 		System.out.println(t2 instanceof Person);
 		System.out.print("Is s1 a singer?: ");
 		System.out.println(s1 instanceof Singer);
+		System.out.println(t2.legs);
 	}
 
 }

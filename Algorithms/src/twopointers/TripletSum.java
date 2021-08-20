@@ -24,8 +24,9 @@ public class TripletSum {
 		
 	}
 	public static boolean findTriplet(int a[], int sum) {
+		Arrays.sort(a);
 		for(int i=0; i<a.length-2; i++) {
-			int required=sum-i;
+			int required=sum-a[i];
 			boolean isPresent=twoSum(a, required, i+1);
 			if(isPresent) return true;
 		}
